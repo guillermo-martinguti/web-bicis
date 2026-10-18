@@ -1,0 +1,136 @@
+/* Hoja de estilos de TIENDA DE BICIS */
+
+/* Tipo de letra único para toda la web y fondo no blanco */
+body {
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222;
+    margin: 20px;
+}
+
+/* Título principal: centrado y con letras grandes */
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #1f5e2e;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #1f5e2e;
+}
+
+/* Texto de introducción centrado */
+.intro {
+    text-align: center;
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Fondo de los enlaces (no puede ser blanco) */
+a {
+    background-color: #468957;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #3a8a4c;
+}
+
+/* Imagen de portada */
+.portada {
+    display: block;
+    margin: 20px auto;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Galería de bicicletas */
+.galeria {
+    text-align: center;
+}
+
+.galeria figure {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    vertical-align: top;
+}
+
+.galeria img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    
+}
+
+.galeria figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+/* Formulario */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+/* Etiquetas de los botones de opción (Hombre / Mujer) */
+form label.opcion {
+    display: inline;
+    font-weight: normal;
+    margin-right: 15px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="date"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 8px 20px;
+    font-family: inherit;
+}
+
+/* Pie de página con el enlace INICIO */
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
